@@ -1,0 +1,14 @@
+.search{
+    width: fit-content;
+}
+
+.search-bar{
+    /* width: 434px; */
+    background: #F1F1F1;
+}
+
+@media (min-width: 1024px){
+    .search-bar{
+        width: 434px !important;
+    }
+}

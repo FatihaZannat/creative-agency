@@ -1,0 +1,27 @@
+.order-proceed-from{
+    width: 550px;
+    margin-left: 10px;
+}
+@media (max-width: 680px){
+    .order-proceed-from{
+        width: 80vw !important;
+        text-align: center;
+    }
+    .order-time{
+        font-size: 9px !important;
+    }
+}
+.order-time{
+    font-size: 14px;
+    font-weight: 700;
+}
+input[type=time]:invalid + .validity:before {
+    content: '✖';
+    color: rgb(238, 64, 107);
+
+}
+  
+input[type=time]:valid + .validity:before {
+    content: '✓';
+    color: rgb(5, 190, 5);
+}

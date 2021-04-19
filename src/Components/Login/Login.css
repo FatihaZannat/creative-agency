@@ -1,0 +1,9 @@
+.login-field{
+    width: 450px;
+}
+
+@media (max-width: 550px){
+    .login-field{
+        width: 90% !important;
+    }
+}

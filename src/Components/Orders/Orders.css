@@ -1,0 +1,11 @@
+ .bg-cancel{
+     font-weight: 700;
+     background-color: #ffe1e4;
+ }
+.bg-cancel:hover{
+    background-color: #DC3545 !important;
+    color: aliceblue;
+}
+.bg-cancel, .plus-minus{
+    font-size: 16px;
+}

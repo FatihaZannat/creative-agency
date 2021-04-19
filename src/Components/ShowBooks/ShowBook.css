@@ -1,0 +1,14 @@
+.bg-special{
+    background-color: #F1F1F1;
+}
+.book-card{
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+.book-img{
+    width: 75%;
+    /* height: 280px; */
+    transition: all 1.02s;
+}
+.book-img:hover{
+    transform: scale(1.05);
+}

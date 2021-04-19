@@ -1,0 +1,18 @@
+.nav-link{
+    border: 2px solid white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-link:hover{
+    background-color: #007BFF;
+    color: white !important;
+}
+
+@media(max-width: 1023px){
+    .nav-link{
+        margin-top: 5px;
+        padding-left: 15px !important;
+    }
+}

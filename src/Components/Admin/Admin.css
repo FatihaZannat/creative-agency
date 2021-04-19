@@ -1,0 +1,11 @@
+.input-form{
+    background-color: #F4F7FC;
+    height: 86.5vh;
+    overflow-y: scroll;
+}
+.hover:hover{
+    background-color: #2F216A;
+}
+.active{
+    background: #2F216A;
+}
